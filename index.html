@@ -47,9 +47,6 @@
                 <div class="col-md-6 no-padding">
                     <img src="img/products/mac2.jpg" class="img-responsive">
                 </div>
-                <div class="col-md-6 no-padding">
-                    <img src="img/products/mac2.jpg" class="img-responsive">
-                </div>
             </div>
         <div class="clearfix"></div>
         </section>
@@ -87,6 +84,63 @@
 
 
 
+        <section class="item">
+            
+            <div class="item-display col-sm-6">
+                <img src="img/products/hp0.jpg" class="img-responsive pull-right">
+            </div>
+
+            <div class="item-info col-sm-6">
+                <h2>HP 12c Platinum</h2>
+                <p class="lead">1080p</p>
+                <p class="price"><small>R$</small>0.000</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer risus purus, venenatis in felis nec, faucibus egestas justo. Donec sagittis neque at nisi ornare scelerisque quis eget nunc.</p>
+                <p>Donec ultricies erat vitae mollis cursus. Nulla commodo porta gravida. Aliquam justo lorem, volutpat nec elit a, semper eleifend sem. Integer condimentum urna ac metus interdum, non dignissim sem mattis.</p>
+                <div class="item-more"></div>
+            </div>
+
+            <div class="hidden item-gallery">
+                <div class="col-md-6 no-padding">
+                    <img src="img/products/hp1.jpg" class="img-responsive">
+                </div>
+            </div>
+        <div class="clearfix"></div>
+        </section>
+
+
+
+
+
+        <section class="item">
+            
+            <div class="item-display col-sm-6">
+                <img src="img/products/cam0.jpg" class="img-responsive pull-right">
+            </div>
+
+            <div class="item-info col-sm-6">
+                <h2>Panasonic SDR-h80</h2>
+                <p class="lead">Zoom 70x</p>
+                <p class="price"><small>R$</small>0.000</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer risus purus, venenatis in felis nec, faucibus egestas justo. Donec sagittis neque at nisi ornare scelerisque quis eget nunc.</p>
+                <p>Donec ultricies erat vitae mollis cursus. Nulla commodo porta gravida. Aliquam justo lorem, volutpat nec elit a, semper eleifend sem. Integer condimentum urna ac metus interdum, non dignissim sem mattis.</p>
+                <div class="item-more"></div>
+            </div>
+
+            <div class="hidden item-gallery">
+                <div class="col-md-6 no-padding">
+                    <img src="img/products/cam1.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-6 no-padding">
+                    <img src="img/products/cam2.jpg" class="img-responsive">
+                </div>
+            </div>
+        <div class="clearfix"></div>
+        </section>
+
+
+
+
+
 
 
 
@@ -105,6 +159,7 @@
             var tgt = $(this).parent().parent().find('.item-gallery');
             if(tgt.hasClass('hidden')){
                  $(this).parent().parent().find('.item-gallery').removeClass('hidden');
+                 $(this).parent().parent().find('.item-gallery').hide().slideDown();
              }else{
                 $(this).parent().parent().find('.item-gallery').addClass('hidden');
              }
