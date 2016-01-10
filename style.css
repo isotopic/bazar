@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 100px 0;
   background-color:#fff;
   color:#999;
   font-family: "Dosis";
@@ -64,8 +64,12 @@ section {
 	width:100%;
 	display:block;
 	padding-top:100px;
+	border-bottom: 1px solid #ccc;
 }
 
+section .item-display{
+	padding-bottom: 40px;
+}
 @media screen and (max-width: 768px) {
 	section .item-display img{
 		float:none !important;
@@ -76,6 +80,7 @@ section {
 section .item-info{
 	padding-left:30px;
 	padding-right:30px;
+	padding-bottom: 40px;
 	max-width:400px;
 }
 section .item-info h2{
@@ -102,6 +107,22 @@ section .item-info p{
 	font-size: 18px;
 	font-weight: 300;
 }
+
+
+
+section .item-more{
+	margin-top:20px;
+	background-color: #94C400;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px; 
+	background-image: url('img/camera.svg');
+	background-position: center 8px;
+	background-size:22px;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+
 
 
 
