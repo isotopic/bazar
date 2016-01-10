@@ -76,11 +76,31 @@ section {
 section .item-info{
 	padding-left:30px;
 	padding-right:30px;
+	max-width:400px;
 }
 section .item-info h2{
 	color:#666;
 	font-weight: 300;
 	font-size: 55px;
+	margin-bottom: 0;
+}
+section .item-info p.lead{
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom:10px;
+}
+section .item-info p.price{
+	font-size: 26px;
+	font-weight: 500;
+	color:#94C400;
+}
+section .item-info p.price small{
+	font-size: 18px;
+	margin-right:3px;
+}
+section .item-info p{
+	font-size: 18px;
+	font-weight: 300;
 }
 
 
