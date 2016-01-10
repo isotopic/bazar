@@ -5,6 +5,105 @@ body {
   color:#999;
   font-family: "Dosis";
 }
+.no-padding{
+	padding:0;
+}
+.clearfix{
+	clear:both;
+}
+
+
+
+header{
+	display: block;
+	padding:60px 30px;
+	margin:0;
+	margin-bottom: 50px;
+	text-align: center;
+	background-color:#f8f8f8;
+}
+header h1{
+	margin:0px;
+	margin-bottom:30px;
+}
+header p.lead{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size: 38px;
+	line-height: 40px;
+}
+header strong{
+	font-weight: normal;
+	color:#777;
+}
+header p br{
+	display:none;
+}
+header p{
+	margin:0;
+	font-size:20px;
+	font-weight: 300;
+}
+@media screen and (max-width: 820px) {
+	header  p{ 
+		text-align: left;
+		margin:0 0 20px 0;
+	}
+	header p br{
+		display:inline;
+	}
+}
+
+
+
+
+
+section {
+	clear:both;
+	background-color:#fff;
+	width:100%;
+	display:block;
+	padding-top:100px;
+}
+
+@media screen and (max-width: 768px) {
+	section .item-display img{
+		float:none !important;
+		margin:0 auto;
+	}
+}
+
+section .item-info{
+	padding-left:30px;
+	padding-right:30px;
+}
+section .item-info h2{
+	color:#666;
+	font-weight: 300;
+	font-size: 55px;
+}
+
+
+
+
+
+section .item-gallery{
+	clear:both;
+	padding-top:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
