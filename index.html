@@ -162,10 +162,13 @@
         $('.item-more').click(function(){
             var tgt = $(this).parent().parent().find('.item-gallery');
             if(tgt.hasClass('hidden')){
-                 $(this).parent().parent().find('.item-gallery').removeClass('hidden');
-                 $(this).parent().parent().find('.item-gallery').hide().slideDown();
+                 tgt.removeClass('hidden');
+                 tgt.hide().slideToggle(800);
+                $('html, body').animate({
+                    scrollTop: tgt.offset().top
+                }, 800);
              }else{
-                $(this).parent().parent().find('.item-gallery').addClass('hidden');
+               tgt.slideToggle();
              }
            
         });
