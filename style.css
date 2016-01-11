@@ -11,7 +11,12 @@ body {
 .clearfix{
 	clear:both;
 }
-
+a{
+	color:#8DB9D8;
+}
+a:hover{
+	text-decoration: none;
+}
 
 
 header{
@@ -111,19 +116,27 @@ section .item-info p{
 
 
 section .item-more{
+	display: inline-block;
 	margin-top:20px;
 	background-color: #94C400;
-	border-radius: 50%;
-	width: 40px;
+	color:#fff;
+	border-radius: 20px;
+	width: auto;
 	height: 40px; 
+	padding: 8px 20px 0 50px;
+	font-size: 15px;
+	font-weight: 500;
 	background-image: url('img/camera.svg');
-	background-position: center 8px;
+	background-position: 18px 8px;
 	background-size:22px;
 	background-repeat: no-repeat;
 	cursor:pointer;
+
 }
 
-
+section .item-more:after {
+  content: " Mais fotos";
+}
 
 
 
